@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  padding: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 95%;
+}
+.heading {
+  font-size: 32px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  color: #1e293b;
+}
+.input-container {
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 3px;
+  border: 1px solid #1e293b;
+}
+.input-element {
+  height: 20px;
+  width: 90%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.search-icon {
+  height: 14px;
+  width: 14px;
+}
+.tab-Items-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 1px solid #7b8794;
+}
+.app-Items-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+  overflow: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .app-Items-container {
+    width: 60%;
+  }
+}
